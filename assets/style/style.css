@@ -1,0 +1,81 @@
+body {margin: 0;
+padding: 0;}
+
+menu {display: flex; 
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 11em;
+min-height: 100vh;
+flex-wrap: wrap;
+background-color: antiquewhite;
+margin: 0;
+padding: 0;
+border: solid 1px gray}
+
+p {text-align: center;
+  margin: 0;
+  padding: 0;}
+
+.container {display: flex;
+}
+
+.container-h{ display: flex;
+flex-direction: column;
+justify-content: flex-start;}
+
+.container-h p {
+  text-align: left;
+}
+.cuerpo {display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+background-color: #E9EBE4;
+}
+
+.cuerpo img {
+  width: 20%;
+}
+
+.person {display: flex;
+  justify-content:flex-start;
+align-items: center;
+flex-direction: row;
+border-top: solid 1px grey;
+margin: 0;
+padding: 0.5em 0 ;
+width: 100%;}
+
+.boton{display: flex;
+  justify-content:center;
+align-items: center;
+border-top: solid 1px grey;
+margin: 0;
+padding: 0.5em 0 ;
+width: 100% }
+
+
+.person p {font-size: 10px;
+padding: 0.2em ;
+}
+.person img{ 
+  width: 18%; /* 30% del contenedor */
+  border-radius:60%; /* Hace el elemento circular */
+  object-fit: cover; /* Asegura que la imagen cubra completamente el espacio sin deformarse */
+padding-left: 0.5em;
+padding-right: 0.3em;}
+
+
+h1{margin: 0.3em;}
+.icon-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%; /* Ajusta esto según lo que necesites */
+}
+.icon-container i {
+
+  margin-right: 10px; /* Añade un margen a la izquierda de cada ícono */
+}
